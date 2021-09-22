@@ -1,38 +1,41 @@
 <!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <html>
-    <link rel="stylesheet" href="resources/index2.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script type="text/javascript" src="resources/youtube.min.js"></script>
-    <title>Custom Youtube Project</title>
-    <body>
-        <div class="center">
-            <div class="fixedContainer">
-                <header>
-                    <div class="selectedChannel selectedChannelText selectedChannelHover" href="">The API may be starting from an idle state, please wait 5 to 10 seconds.</div>
-                    <div class="logos"></div>
-                    <div class="sortBy">
-                        <label for="dropDown">Sort by:</label>
-                        <select name="dropDown" id="dropDown" class="sortByDropDown">
-                            <option value="newestFirst">Newest First</option>
-                            <option value="oldestFirst">Oldest First</option>
-                        </select>
-                    </div>
-                    <div class="search">
-                        <input type="text" class="searchBar" placeholder="Search here...">
-                    </div>
-                    <a href="index.html" class="link">Back to Portfolio</a>
-                </header>
-                <div class="profileContainer">
-                    <div class="profilesDiv"></div>
+<link rel="stylesheet" href="resources/index2.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="resources/youtube.min.js"></script>
+<title>Custom Youtube Project</title>
+
+<body>
+    <div class="center">
+        <div class="fixedContainer">
+            <header>
+                <div class="selectedChannel selectedChannelText selectedChannelHover" href="">The API may be starting
+                    from an idle state, please wait 5 to 10 seconds.</div>
+                <div class="logos"></div>
+                <div class="sortBy">
+                    <label for="dropDown">Sort by:</label>
+                    <select name="dropDown" id="dropDown" class="sortByDropDown">
+                        <option value="newestFirst">Newest First</option>
+                        <option value="oldestFirst">Oldest First</option>
+                    </select>
                 </div>
-                <section id="video" class="mainVideo"></section>
-                
+                <div class="search">
+                    <input type="text" class="searchBar" placeholder="Search here...">
+                </div>
+                <a href="index.html" class="link">Back to Portfolio</a>
+            </header>
+            <div class="profileContainer">
+                <div class="profilesDiv"></div>
             </div>
-            <div class="videosContainer">
-                <main class="mainSelector"></main>
-            </div>
-            <button class="toTop">Top</button>
+            <section id="video" class="mainVideo"></section>
+
         </div>
-    </body>
+        <div class="videosContainer">
+            <main class="mainSelector"></main>
+        </div>
+        <button class="toTop">Top</button>
+    </div>
+</body>
+
 </html>
