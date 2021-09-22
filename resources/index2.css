@@ -17,18 +17,22 @@ p {
   font-size: 0.7rem;
 }
 
+.center {
+  width: 1900px;
+  height: 100%;
+  margin: auto;
+}
+
 body {
   background-color: black;
-  min-width: 979px;
-  width: auto;
+  width: 100%;
+  height: 100%;
 }
 
 .fixedContainer {
   position: fixed;
   width: 1900px;
   top: 0;
-  left: 0;
-  margin: 0;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -198,7 +202,7 @@ a {
 }
 
 .profilePic {
-  width: 80px;
+  width: 82px;
   border-radius: 50px;
   border: 3px solid rgba(0, 0, 0, 0);
 }
@@ -224,10 +228,9 @@ a {
 }
 
 .mainVideo {
-  position: relative;
   text-align: center;
+  height: fit-content;
   width: 1920px;
-  left: 5px;
   overflow: hidden;
   border-radius: 24px;
   background-color: rgba(0, 0, 0, 0.726);
@@ -244,6 +247,7 @@ a {
 
 .videosContainer {
   width: 1890px;
+  padding-top: 2px;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
